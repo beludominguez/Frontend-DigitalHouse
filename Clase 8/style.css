@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: antiquewhite;
+}
+.banner {
+    background-image: url(./img/banner2.jpg);
+    backgroung-size: cover;
+    height: 250px;
+}
+
+main, footer {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.miFoto {
+    width: 300px;
+}
+ footer {
+     width: 100%;
+     color: white;
+     background-color: blueviolet;
+ }
