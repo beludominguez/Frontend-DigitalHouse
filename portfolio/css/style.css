@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+
+}
+
+.fotoPerfil {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.perfil {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    background-color: #F0A83E;
+}
+
+.descripcion {
+    font-size: 30px;
+    color: #00669F;
+    margin-left: 10px;
+}
+
+/* Proyectos */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    color: #00669F;
+}
+
+.archivos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.archivos div a {
+    color: #00669F;
+}
+
+footer {
+    background-color: #F0A83E;
+    color: #00669F;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto;
+    max-width: 1024px;
+    margin: auto;
+}
+
+/* === HEADER === */
+
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+nav {
+    width: 284px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+}
+
+/* === MAIN === */
+
+main {
+    background-color: #E5E5E5;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+    gap: 5px;
+}
+
+.promo, .information {
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.promo {
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.information {
+    display: block;
+    background-color: #F3F3F3;
+}
+
+.ranking {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+
+span {
+    color: #F3F3F3;
+}
+
+.titleRanking, .info{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: red;
+    align-items: center;
+}
+
+.titleRanking {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ranking ol li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+
+.barFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+}
+
+.menuFooter {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+    box-sizing: content-box;
+    margin-left: 20px;
+}
+
+.logoFooter {
+    margin-right: 42px;
+}
+
+
+
+
+
+
