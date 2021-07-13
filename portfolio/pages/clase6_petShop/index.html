@@ -1,58 +1,108 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="banner1">
-            <span class="left">Grandes ofertas en comederos</span>
-            <span class="right">Español</span>
-            <span class="right">$ARG</span>
+            <span>Grandes ofertas en comederos</span>
+            <div>
+                <span>Español</span>
+                <span>$ARG</span>
+            </div>
 
         </div>
 
         <nav>
             <img src="img/Logo%20(1).png" alt="Logo de la empresa">
-                <a href="#">Categorías</a>
-                <a href="#">Pets</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Contactanos</a>
-            </ul>
+            <div class="menuBar">
+                <a href="#"><i class="fas fa-paw"></i>Categorías</a>
+                <a href="#"><i class="fas fa-paw"></i>Pets</a>
+                <a href="#"><i class="fas fa-paw"></i>Nosotros</a>
+                <a href="#"><i class="fas fa-paw"></i>Contactanos</a>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="bannerComercial">
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <h3>¡Comederos en descuento!</h3>
-            <div>COMEDEROS</div>
+        <section class="bannerComercial">
+            <div class="comercial"></div>
+            <div class="promo">
+                <h2>¡Es un placer tenerte aquí!</h2>
+                <h3>¡Comederos en descuento!</h3>
+                <div class="botton">COMEDEROS</div>
+            </div>
         </section>
         <section id="productos">
-            <img src="img/pawprint 1.jpg">
-            <h2>Productos destacados</h2>
-                <span>Comederos - </span>
-                <span>Accesorios - </span>
-                <span>Comida</span>
-            <br>
-            <br>
+            <div class="opcionesBanner">
+                <img src="img/pawprint 1.jpg" width="60px">
+                <h2>Productos destacados</h2>
+                <ul type="none">
+                    <li>Comederos -</li>
+                    <li>Accesorios -</li>
+                    <li>Comida -</li>
+                </ul>
+            </div>
+            <div class="boxProducts">
+                <div class="cardProducto">
+                    <img src="img/churrasquito.jpg" alt="Juguete Churrasquito">
+                    <p>Juguete Churrasquito</p>
+                    <p>$150</p>
+                </div>
+                <div class="cardProducto">
+                    <img src="img/comedero.jpg" alt="Comedero para perros">
+                    <p>Comedero para perros </p>
+                    <p>$250</p>
+                </div>
+                <div class="cardProducto">
+                    <img src="img/Huesito.jpg" alt="Juguete Huesito">
+                    <p>Juguete Huesito</p>
+                    <p>$650</p>
+                </div>
+            </div>
+        </section>
+        <section class="formulario">
+            <form class="contacto">
+                <label for="formulariodecontacto">Contactanos</label>
+                <input type="text" placeholder="Nombre y Apellido" name="nombre" required>
+                <input type="email" placeholder="Ingrese tu correo electrónico" name="email" required>
+                <input type="tel" placeholder="Teléfono" name="telefono" required>
+                <input class="button reset" type="button" value="Resetear">
+                <input class="button enviar" type="button" value="Enviar">
+            </form>
 
-            <img src="img/churrasquito.jpg" alt="Juguete Churrasquito">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-            <img src="img/comedero.jpg" alt="Comedero para perros">
-            <p>Comedero para perros </p>
-            <p>$250</p>
-            <img src="img/Huesito.jpg" alt="Juguete Huesito">
-            <p>Juguete Huesito</p>
-            <p>$650</p>
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End I - Grupo 8</p>
+        <div class="suscripcion">
+            <div>
+                <img src="img/Vector%20(3).png">
+                <div>Suscríbete para más novedades</div>
+            </div>
+            <div>
+                <div class="form2">Ingrese su correo aquí</div>
+                <button class="suscribir">Suscribirme</button>
+            </div>
+
+        </div>
+
+        <div class="contactoFooter">
+            <div class="contactoDatos">
+                <img src="img/Location.png">
+                <img src="img/Phone.png">
+                <img src="img/Correo.png">
+            </div>
+            <img src="img/Logo%20(1).png">
+        </div>
+        <p>Todos los derechos reservados Front End I</p>
     </footer>
     
 </body>

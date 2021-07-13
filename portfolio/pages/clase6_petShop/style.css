@@ -1,24 +1,222 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
 }
 
 .banner1 {
+    height: 20px;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
-.right {
-    float: right;
-    margin-right: 20px;
-}
-
 nav  {
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
 }
 
+a i {
+    padding: 8px;
+    color: #F3F3F3;
+}
 a {
-    float: right;
-    margin: 5px;
+    color: #F3F3F3;
+}
+
+/* MAIN */
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    position: relative;
+}
+
+.promo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 10;
+    width: 400px;
+    height: 200px;
+    top: 156px;
+    right: 25px;
+}
+
+.comercial {
+    background-image: url("img/bowl-and-pet-daities-on-green-background 1.png");
+    background-size: cover;
+    height: 550px;
+}
+
+.promo h2 {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 365px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo > * {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+    margin: 0 auto;
+}
+
+.botton {
+    background: #F0A83E;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 141px;
+    height: 49px;
+}
+
+.opcionesBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.boxProducts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardProducto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
 }
 
 
+/*FOOTER*/
+
+.suscripcion {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-top: 2%;
+    padding: 30px;
+}
+
+.suscripcion div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.form2 {
+    background-color: #F3F3F3;
+    color: lightgray;
+    font-size: 15px;
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+
+.contacto input {
+    background-color: saddlebrown;
+    color: white;
+    height: 3rem;
+    width: 380px;
+    border-radius: 15px;
+}
+
+.button {
+    display: inline;
+    height: 50px;
+    width: 120px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.resetear {
+    background-color: orange;
+    color: white;
+}
+
+.enviar {
+    background-color: saddlebrown;
+    color: white;
+}
+.suscribir {
+    background: #3C2313;
+    border-radius: 15px;
+    width: 70px;
+    height: 34px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.contactoFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3C2313;
+}
+
+.contactoDatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
